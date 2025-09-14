@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+
+        <record model="ir.sequence" id="journal_cash">
+            <field name="name">Libro Efectivo</field>
+            <field name="sequence_type" ref="account.sequence_type_account_journal"/>
+            <field name="number_next_internal">1</field>
+            <field name="prefix">ASE-</field>
+            <field name="type">incremental</field>
+            <field name="padding">6</field>
+            <field name="active">True</field>
+        </record>
+
+        <record model="ir.sequence" id="journal_expenses">
+            <field name="name">Libro Gastos</field>
+            <field name="sequence_type" ref="account.sequence_type_account_journal"/>
+            <field name="number_next_internal">1</field>
+            <field name="prefix">ASG-</field>
+            <field name="type">incremental</field>
+            <field name="padding">6</field>
+            <field name="active">True</field>
+        </record>
+
+        <record model="ir.sequence" id="journal_ingress">
+            <field name="name">Libro Ingresos</field>
+            <field name="sequence_type" ref="account.sequence_type_account_journal"/>
+            <field name="number_next_internal">1</field>
+            <field name="prefix">ASI-</field>
+            <field name="type">incremental</field>
+            <field name="padding">6</field>
+            <field name="active">True</field>
+        </record>
+
+        <record model="ir.sequence" id="journal_inventory">
+            <field name="name">Libro Inventarios</field>
+            <field name="sequence_type" ref="account.sequence_type_account_journal"/>
+            <field name="number_next_internal">1</field>
+            <field name="prefix">ASX-</field>
+            <field name="type">incremental</field>
+            <field name="padding">6</field>
+            <field name="active">True</field>
+        </record>
+
+        <record model="ir.sequence" id="journal_banks">
+            <field name="name">Libro Bancos</field>
+            <field name="sequence_type" ref="account.sequence_type_account_journal"/>
+            <field name="number_next_internal">1</field>
+            <field name="prefix">ASB-</field>
+            <field name="type">incremental</field>
+            <field name="padding">6</field>
+            <field name="active">True</field>
+        </record>
+
+        <record model="ir.sequence" id="journal_cash_minor">
+            <field name="name">Libro Caja Menor</field>
+            <field name="sequence_type" ref="account.sequence_type_account_journal"/>
+            <field name="number_next_internal">1</field>
+            <field name="prefix">ASC-</field>
+            <field name="type">incremental</field>
+            <field name="padding">6</field>
+            <field name="active">True</field>
+        </record>
+
+        <record model="ir.sequence" id="journal_assets">
+            <field name="name">Libro Activo Fijo</field>
+            <field name="sequence_type" ref="account.sequence_type_account_journal"/>
+            <field name="number_next_internal">1</field>
+            <field name="prefix">ASF-</field>
+            <field name="type">incremental</field>
+            <field name="padding">6</field>
+            <field name="active">True</field>
+        </record>
+
+        <record model="ir.sequence" id="journal_situation">
+            <field name="name">Libro Situacion</field>
+            <field name="sequence_type" ref="account.sequence_type_account_journal"/>
+            <field name="number_next_internal">1</field>
+            <field name="prefix">AST-</field>
+            <field name="type">incremental</field>
+            <field name="padding">6</field>
+            <field name="active">True</field>
+        </record>
+
+        <record model="ir.sequence" id="journal_general">
+            <field name="name">Libro General</field>
+            <field name="sequence_type" ref="account.sequence_type_account_journal"/>
+            <field name="number_next_internal">1</field>
+            <field name="prefix">ASL-</field>
+            <field name="type">incremental</field>
+            <field name="padding">6</field>
+            <field name="active">True</field>
+        </record>
+
+        <record model="ir.sequence" id="account_move">
+            <field name="name">Asiento Contabilizado</field>
+            <field name="sequence_type" ref="account.sequence_type_account_journal"/>
+            <field name="number_next_internal">1</field>
+            <field name="prefix">ACO-</field>
+            <field name="type">incremental</field>
+            <field name="padding">6</field>
+            <field name="active">True</field>
+        </record>
+
+    </data>
+</tryton>
