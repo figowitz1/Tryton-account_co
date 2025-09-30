@@ -19,7 +19,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="kind">both</field>
         </record>
         <record model="account.tax.code.template" id="taxcode_co">
-            <field name="name">PLAN DE IMPUESTOS COLOMBIA 2019</field>
+            <field name="name">PLAN DE IMPUESTOS COLOMBIA 2025</field>
             <field name="account" ref="pc"/>
         </record>
         <record model="account.tax.code.template" id="taxcode_1">
