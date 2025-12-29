@@ -8,4 +8,4 @@ def register():
     Pool.register(
         account.AccountTemplate,
         account.Account,
-        module='account_co_pyme', type_='model')
+        module='account_co', type_='model')
